@@ -1,0 +1,107 @@
+[[package]]
+name = "autopalette"
+version = "0.1.0-2"
+description = "Terminal palettes and themes, without tears."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+colorhash = ">=1.0.2"
+colour = ">=0.1.5"
+emoji2text = "*"
+ftfy = "*"
+kdtree = ">=0.16"
+sty = ">=1.0.0b6"
+
+[[package]]
+name = "colorhash"
+version = "1.2.1"
+description = "Generate color based on any object"
+category = "main"
+optional = false
+python-versions = ">=3.6,<4.0"
+
+[[package]]
+name = "colour"
+version = "0.1.5"
+description = "converts and manipulates various color representation (HSL, RVB, web, X11, ...)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+test = ["nose"]
+
+[[package]]
+name = "emoji2text"
+version = "0.1.7"
+description = "Can't handle emoji? Use this to treat them as plain strings, according to the description provided by unicode."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+grapheme = "*"
+
+[[package]]
+name = "ftfy"
+version = "6.1.1"
+description = "Fixes mojibake and other problems with Unicode, after the fact"
+category = "main"
+optional = false
+python-versions = ">=3.7,<4"
+
+[package.dependencies]
+wcwidth = ">=0.2.5"
+
+[[package]]
+name = "grapheme"
+version = "0.6.0"
+description = "Unicode grapheme helpers"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+test = ["pytest", "sphinx", "sphinx-autobuild", "wheel", "twine"]
+
+[[package]]
+name = "kdtree"
+version = "0.16"
+description = "A Python implemntation of a kd-tree"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "sty"
+version = "1.0.4"
+description = "String styling for your terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "wcwidth"
+version = "0.2.5"
+description = "Measures the displayed width of unicode strings in a terminal"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "ab75cbb2de3fe4ef0712f3871b0cf8ac490e359d8886fe359dc8011d59c57ede"
+
+[metadata.files]
+autopalette = []
+colorhash = []
+colour = []
+emoji2text = []
+ftfy = []
+grapheme = []
+kdtree = []
+sty = []
+wcwidth = []
