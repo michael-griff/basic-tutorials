@@ -1,26 +1,12 @@
 import random
-import my_module
-from sty import fg
 
-def generateRGB():
-  red = random.randint(0, 256)
-  green = random.randint(0, 256)
-  blue = random.randint(0, 256)
-  return red, green, blue
+random_integer = random.randint(1, 10)
+print(random_integer)
 
-def generateColor(red, green, blue):
-  return fg(red, green, blue)
+# print(pi_module.py)
 
-red, green, blue = generateRGB()
-color = generateColor(red, green, blue)
+random_float = random.random()
+print(random_float)
 
-print(color, "I'm randomly changing colors!")
-
-  
-
-
-# random_integer = random.randint(1, 10)
-# print(random_integer)
-
-# print(my_module.pi)
-
+love_score = random.randint(1, 100)
+print(f"Your love score is {love_score}")

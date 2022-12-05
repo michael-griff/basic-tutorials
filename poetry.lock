@@ -75,6 +75,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "my-module"
+version = "1.6.2"
+description = "a simple module for printing lists"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "sty"
 version = "1.0.4"
 description = "String styling for your terminal"
@@ -93,7 +101,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "ab75cbb2de3fe4ef0712f3871b0cf8ac490e359d8886fe359dc8011d59c57ede"
+content-hash = "65d988a7e8b9a4ceb3e4dd68489684e13611f8dec16f6b0b86722ae1126b26e8"
 
 [metadata.files]
 autopalette = []
@@ -103,5 +111,6 @@ emoji2text = []
 ftfy = []
 grapheme = []
 kdtree = []
+my-module = []
 sty = []
 wcwidth = []
